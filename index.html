@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,11 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header style="background-color: #FFFBF0;" class="py-2">
+<body class="mx-sm-auto">
+    <header class="py-2 first-section-background">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="#"><img width="290px" src="icons/Group 33072.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img width="290px" src="icons/Logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -45,21 +46,17 @@
         <section>
             <div class="container my-5 pb-5">
                 <div class="row">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <img width="405px" src="images/Group-33092.png" alt="">
+                    </div>
                     <div class="col-lg-6 col-md-12 col-12 pt-lg-5">
-                        <h2 style="font-family: 'Bebas Neue', cursive;font-size: 80px;"><span style="color: #FABE4C;">BE
-                                THE
-                                PENGUINS</span> <br> OF WINTER</h2>
+                        <h1 class="heading-one"><span class="span-one">BE THE PENGUIN</span> <br> OF WINTER</h1>
                         <p style="font-family: 'Roboto', sans-serif;">Lorem, ipsum dolor sit amet consectetur
                             adipisicing elit. Voluptatibus ipsa natus ea quas
                             architecto voluptatem repudiandae doloribus minus harum repellendus.</p>
-                        <button type="button" class="btn text-white"
-                            style="background-color: #A4BC46;height: 60px; width: 170px; font-size: 14px; font-family: 'Roboto', sans-serif;"><img
-                                width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
+                        <button type="button" class="btn text-white buy-btn">
+                            <img width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
                             NOW</button>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-12">
-
-                        <img src="images/model.png" alt="">
                     </div>
                 </div>
             </div>
@@ -68,33 +65,168 @@
     </header>
 
     <main>
-        <section class="container my-5">
-            <h2 style="font-family: 'Bebas Neue', cursive;">Woman Jacket</h2>
-            <div class="row row-cols-lg-3 row-cols-md-1 row-cols-1 g-4">
-                <div style="font-family: 'Roboto', sans-serif;" class="shadow p-3 bg-body rounded">
-                    <div style="background-color: #F1F1F1;" class="rounded p-5">
-                        <img height="293" width="293" src="images/jacket-1.png" alt="">
-
+        <section class="container">
+            <h1 class="heading-two mt-5">CASUAL SHOES</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="photo-div">
+                            <img src="images/image-1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title title">Nike Shoe</h2>
+                            <p class="card-text details">Lorem Ipsun is simply dummy text of the printing and
+                                typesetting
+                                industy.</p>
+                        </div>
+                        <div class="footer-sect d-flex justify-content-between align-items-center">
+                            <h2 class="price">$250</h2>
+                            <button type="button" class="btn text-white buy-btn">
+                                <img width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="py-3">Yellow Coat Jacket</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quisquam
-                            sit quibusdam unde.</p>
-                        <div class="d-flex justify-content-between">
-                            <span style="font-size: 36px; color: #FABE4C;">$234</span>
-                            <span><button type="button" class="btn text-white"
-                                    style="background-color: #A4BC46;height: 60px; width: 170px; font-size: 14px; font-family: 'Roboto', sans-serif;"><img
-                                        width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
-                                    NOW</button></span>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="photo-div">
+                            <img src="images/image-2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title title">Sneakers Skate Shoe</h2>
+                            <p class="card-text details">Lorem Ipsun is simply dummy text of the printing and
+                                typesetting
+                                industy.</p>
+                        </div>
+                        <div class="footer-sect d-flex justify-content-between align-items-center">
+                            <h2 class="price">$230</h2>
+                            <button type="button" class="btn text-white buy-btn">
+                                <img width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="photo-div">
+                            <img src="images/image-3.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title title">Sneakers Basketball Shoe</h2>
+                            <p class="card-text details">Lorem Ipsun is simply dummy text of the printing and
+                                typesetting
+                                industy.</p>
+                        </div>
+                        <div class="footer-sect d-flex justify-content-between align-items-center">
+                            <h2 class="price">$280</h2>
+                            <button type="button" class="btn text-white buy-btn">
+                                <img width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
                         </div>
                     </div>
 
                 </div>
+        </section>
+        <section class="container">
+            <h1 class="heading-two mt-5">FORMAL SHOES</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="photo-div">
+                            <img src="images/image-4.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title title">Prestige High-Cut Leather </h2>
+                            <p class="card-text details">Lorem Ipsun is simply dummy text of the printing and
+                                typesetting
+                                industy.</p>
+                        </div>
+                        <div class="footer-sect d-flex justify-content-between align-items-center">
+                            <h2 class="price">$450</h2>
+                            <button type="button" class="btn text-white buy-btn">
+                                <img width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="photo-div">
+                            <img src="images/image-5.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title title">Slip-On Formal Shoe</h2>
+                            <p class="card-text details">Lorem Ipsun is simply dummy text of the printing and
+                                typesetting
+                                industy.</p>
+                        </div>
+                        <div class="footer-sect d-flex justify-content-between align-items-center">
+                            <h2 class="price">$430</h2>
+                            <button type="button" class="btn text-white buy-btn">
+                                <img width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="photo-div">
+                            <img src="images/image-6.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title title">Slip-On Formal Shoee</h2>
+                            <p class="card-text details">Lorem Ipsun is simply dummy text of the printing and
+                                typesetting
+                                industy.</p>
+                        </div>
+                        <div class="footer-sect d-flex justify-content-between align-items-center">
+                            <h2 class="price">$480</h2>
+                            <button type="button" class="btn text-white buy-btn">
+                                <img width="24px" src="icons/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
 
+                </div>
+        </section>
 
+        <section class="my-5">
+            <div class="container my-5">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="d-flex align-items-center shadow px-4 py-2 rounded-3 me-4 my-4">
+                            <img width="78px" src="icons/image-12.png" alt="">
+                            <div class="ps-4">
+                                <h3>Find the Perfect Fit</h3>
+                                <h6>Everybody is different, which is why we offer styles for every body.</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center shadow px-4 py-2 rounded-3 me-4 my-4">
+                            <img width="78px" src="icons/image-13.png" alt="">
+                            <div class="ps-4">
+                                <h3>Free Exchanges</h3>
+                                <h6>One of the many reasons you can shop
+                                    with peace of mind..</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center shadow px-4 py-2 rounded-3 me-4 my-4">
+                            <img width="78px" src="icons/image-14.png" alt="">
+                            <div class="ps-4">
+                                <h3>Contact Our Seller</h3>
+                                <h6>They are here to help you. That's quite
+                                    literally what we pay them for.</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <img width="80%" src="icons/XMLID-1.png" alt="">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
 
 
 

@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.first-section-background{
+    background-color: #FFFBF0;
+}
+.heading-one{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: #363958;
+}
+.heading-two{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #363958;
+}
+.span-one{
+    color: #FA804C;
+}
+.buy-btn{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    height: 60px;
+    width: 170px;
+    font-size: 14px; 
+    font-family: 'Roboto', sans-serif;
+}
+.photo-div{
+    background: #f1f1f1;
+    margin: 16px;
+    border-radius: 16px;
+}
+.title{
+    font-weight: 700;
+}
+.footer-sect{
+    padding: 0 16px 10px 16px;
+}
+.price{
+    color: #FA804C;
+    font-weight: 700;
+}
+.details{
+    font-size: 16px;
+    line-height: 24px;
+}
